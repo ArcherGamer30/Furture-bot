@@ -81,9 +81,6 @@ client.on("message", (message) => {
 });
 
 client.on('message', message => {
-        if (message.content == 'gay') {
-        message.delete();
-    }
         if (message.content.includes('fuck')) {
            message.delete()
           
