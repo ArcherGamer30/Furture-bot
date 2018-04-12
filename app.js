@@ -81,9 +81,7 @@ client.on("message", (message) => {
 });
 
 client.on('message', message => {
-        if (message.content == 'gay') {
-        message.delete();
-    }
+	// Please restart your project, isn't optimized and indentation is weird
         if (message.content.includes('fuck')) {
            message.delete()
           
@@ -97,9 +95,6 @@ client.on('message', message => {
           
     }
     if (message.content === 'Usman') {
-        message.reply('NO BAD LANGUAGE!!!');
-    }
-    if (message.content === 'gay') {
         message.reply('NO BAD LANGUAGE!!!');
     }
     if (message.content.includes('fuck')) {
